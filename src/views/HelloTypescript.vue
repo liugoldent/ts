@@ -1,8 +1,8 @@
 <template>
   <div class="home">
     <input v-model="ParString">
-    <button @click="fetchData(ParString)">toUpper</button>
-    <h1>{{UpperData}} </h1>
+    <!-- <button @click="fetchData(ParString)">toUpper</button> -->
+    <h1>{{ParString}} </h1>
   </div>
 </template>
 <script lang="ts">
