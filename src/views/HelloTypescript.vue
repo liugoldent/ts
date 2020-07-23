@@ -12,8 +12,11 @@ export default defineComponent({
   setup () {
       let ParString:string = 'Hello World';
 
+      /**
+       * @description 大寫
+       */
       const fetchData = function(Par:String): any{
-          console.log(Par);
+          console.log('Par',Par);
           return Par.toUpperCase()
       };
 
