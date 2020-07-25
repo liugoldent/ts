@@ -15,7 +15,7 @@ export default defineComponent({
       /**
        * @description 大寫
        */
-      const fetchData = function(Par:String): any{
+      const fetchData = function(Par:String): string{
           console.log('Par',Par);
           return Par.toUpperCase()
       };
@@ -23,9 +23,12 @@ export default defineComponent({
       let UpperData:string = fetchData(ParString);
 
       return {
+          //0717
           ParString,
-          UpperData,
           fetchData,
+          UpperData,
+
+          //0724
       }
   }
 });
