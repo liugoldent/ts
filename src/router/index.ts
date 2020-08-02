@@ -22,6 +22,11 @@ Vue.use(VueRouter)
     path: '/HelloTypescript',
     name: 'HelloTypescript',
     component: () => import(/* webpackChunkName: "about" */ '../views/HelloTypescript.vue')
+  },
+  {
+    path: '/Practice',
+    name: 'Practice',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Practice.vue')
   }
 ]
 
